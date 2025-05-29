@@ -19,5 +19,5 @@ if (
     !url || 
     !url.match(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/) || 
     !threads
-) return console.log("Usage: node master.js <URL> <TIMEOUT?> (? = optional)")
+) return console.log("Usage: node master.js <URL> <THREADS>")
 load(url, threads)
