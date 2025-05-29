@@ -1,0 +1,14 @@
+{
+  "name": "penetration",
+  "version": "1.0.0",
+  "main": "master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "header-generator": "^2.0.0-beta.10"
+  }
+}
